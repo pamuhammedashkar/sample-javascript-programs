@@ -1,0 +1,13 @@
+var str= "malayalam";
+var i=0;
+var j= str.length-1;
+while(i>j){
+    if(str[i]==str[j]){
+    i++;
+    j--;
+    }
+    else{
+        console.log(str,"not a palindrome");
+    }
+}
+console.log(str,"is a palindrome");
